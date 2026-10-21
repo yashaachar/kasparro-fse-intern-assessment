@@ -1,0 +1,23 @@
+[
+  {
+    "turn": 1,
+    "tool_calls": [
+      {
+        "name": "get_brand_facts",
+        "args": {
+          "brand_id": "stonewave"
+        }
+      }
+    ],
+    "tool_responses": [
+      {
+        "name": "get_brand_facts",
+        "fact_count": 44
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "final_text_snippet": "```json\n{\n  \"claims\": [\n    {\n      \"quote\": \"An opened StoneWave Go can be returned to any authorized India seller within thirty days for a full refund, even when the speaker has no manufacturing defect or functional problem.\",\n      \"label\": \"unknown\",\n      \"fact_ids\": [],\n      \"reason\": \"The ca"
+  }
+]
