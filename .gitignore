@@ -1,6 +1,7 @@
 # Environment variables and secrets
 .env
-*.env
+.env.*
+!.env.example
 *.log
 
 # Python
@@ -18,8 +19,17 @@ build/
 env/
 venv/
 
-# IDE
+# Editor and IDE settings
 .vscode/
 .idea/
 *.swp
+*.swo
 *~
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local specification document
+Assessment.docx
